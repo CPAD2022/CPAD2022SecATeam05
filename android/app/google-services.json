@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "731146117691",
+    "project_id": "lunchon-ffec8",
+    "storage_bucket": "lunchon-ffec8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731146117691:android:3d06aff07360567f72321e",
+        "android_client_info": {
+          "package_name": "com.example.lunch_on"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731146117691-epl5u9k85ti8tlbsajrua35rbtrjdtlt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lunch_on",
+            "certificate_hash": "d3ca6d72ba27ac4cae65761a581c675fefb97c4d"
+          }
+        },
+        {
+          "client_id": "731146117691-kqj3b509n9c8ucl69d29uqt5edqgiq20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOEY28fJJqPrbTvH0sqJrbVVumT6kaE8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731146117691-kqj3b509n9c8ucl69d29uqt5edqgiq20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
