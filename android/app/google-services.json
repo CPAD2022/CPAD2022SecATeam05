@@ -1,42 +1,93 @@
 {
   "project_info": {
-    "project_number": "731146117691",
-    "project_id": "lunchon-ffec8",
-    "storage_bucket": "lunchon-ffec8.appspot.com"
+    "project_number": "299742609313",
+    "project_id": "lunchon-3bef0",
+    "storage_bucket": "lunchon-3bef0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:731146117691:android:3d06aff07360567f72321e",
+        "mobilesdk_app_id": "1:299742609313:android:1b714b63e38df1126715e0",
         "android_client_info": {
-          "package_name": "com.example.lunch_on"
+          "package_name": "com.mycompany.cpadlunchon"
         }
       },
       "oauth_client": [
         {
-          "client_id": "731146117691-epl5u9k85ti8tlbsajrua35rbtrjdtlt.apps.googleusercontent.com",
+          "client_id": "299742609313-7284divv3isje1urf3flu6d2jqb8s9pu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.lunch_on",
-            "certificate_hash": "d3ca6d72ba27ac4cae65761a581c675fefb97c4d"
+            "package_name": "com.mycompany.cpadlunchon",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
           }
         },
         {
-          "client_id": "731146117691-kqj3b509n9c8ucl69d29uqt5edqgiq20.apps.googleusercontent.com",
+          "client_id": "299742609313-er99ebq29i2uv7o2qf614qmortf4duss.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAOEY28fJJqPrbTvH0sqJrbVVumT6kaE8M"
+          "current_key": "AIzaSyCIv2Lu0Pc28o7hf5JHz_EfylYIEIIrMB8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "731146117691-kqj3b509n9c8ucl69d29uqt5edqgiq20.apps.googleusercontent.com",
+              "client_id": "299742609313-er99ebq29i2uv7o2qf614qmortf4duss.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "299742609313-9hocsh19qckpvel00d6jmhas7nn271dv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.lunchon"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299742609313:android:9b26e5e62d772ed16715e0",
+        "android_client_info": {
+          "package_name": "com.mycompany.lunchon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299742609313-smp1i6b3sekj8bjeikn10seaeuofp6mc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.lunchon",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "299742609313-er99ebq29i2uv7o2qf614qmortf4duss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIv2Lu0Pc28o7hf5JHz_EfylYIEIIrMB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299742609313-er99ebq29i2uv7o2qf614qmortf4duss.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "299742609313-9hocsh19qckpvel00d6jmhas7nn271dv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.lunchon"
+              }
             }
           ]
         }
