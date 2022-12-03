@@ -12,23 +12,17 @@ Team Members:
 
 # lunch_on
 
-Lunch on is an application where corporate employees can place food order during their lunch time.
+Lunch_On is an application where corporate employees can place food order during their lunch time.
 This promotes a sustainable way of placing order instead of paper reciepts.
 The application is based out of Flutter using Dart and works on Web, Android, Mac OS and IOS   
 
-Update: While presenting, we were asked to add the filter and qr functionality. We successfuly added the qr functionality in our application and built the lofic for the filter functionality.   
+Update: While presenting, we were asked to add the filter and qr functionality. We successfuly added the qr functionality in our application and built the logic for the filter functionality.   
 
 ## Getting Started
 
 
-A new Flutter project.
-This project is a starting point for a Flutter application.
+1) Clone the repository.  
+2) Open the directory in Terminal.   
+3) Run the command 'flutter run lib/main.dart'    
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This will open the flutter application in the chrome browser.
