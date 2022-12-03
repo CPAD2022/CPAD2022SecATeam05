@@ -6,12 +6,15 @@ Team Members:
 1) Dhruv Vohra-2021sp93064   
 2) Shivang Gupta-2021sp93001   
 3) Shruti Bharti-2021sp93038   
-4) Arfa Farooq-2021sp93035   
+4) Arfa Farooq-  2021sp93035   
 5) Prajakta Prashant Joshi-2021sp93005 
 
 
 # lunch_on
 
+An mobile application that allows you to place your lunch order 
+Users need to show the order to the persona on the counter to get their food
+Make Lunch faster and happier
 A new Flutter project.
 
 ## Getting Started
