@@ -97,14 +97,14 @@ class _SuccessWidgetState extends State<SuccessWidget> {
                 ),
               ),
             ),
-            if (widget.product == 'Chicken Tandoori')
+            if (widget.product == 'Non Veg - Tandoori')
               Image.asset(
                 'assets/images/MicrosoftTeams-image_(4).png',
                 width: 100,
                 height: 100,
                 fit: BoxFit.cover,
               ),
-            if (widget.product == 'Veg Tandoori')
+            if (widget.product == 'Veg - Tandoori')
               Image.asset(
                 'assets/images/MicrosoftTeams-image_(5).png',
                 width: 100,
@@ -118,7 +118,7 @@ class _SuccessWidgetState extends State<SuccessWidget> {
                 color: FlutterFlowTheme.of(context).secondaryBackground,
               ),
               child: Visibility(
-                visible: widget.product == 'Veg North Indian',
+                visible: widget.product == 'Veg - North Indian',
                 child: Image.asset(
                   'assets/images/MicrosoftTeams-image.png',
                   width: 100,
