@@ -12,9 +12,9 @@ Team Members:
 
 # lunch_on
 
-==>Lunch on is an application where corporate employees can place food order during their lunch time.
-==>This promotes a sustainable way of placing order instead of paper reciepts.
-==>The application is based out of Flutter using Dart and works on Web, Android, Mac OS and IOS
+Lunch on is an application where corporate employees can place food order during their lunch time.
+This promotes a sustainable way of placing order instead of paper reciepts.
+The application is based out of Flutter using Dart and works on Web, Android, Mac OS and IOS
 
 ## Getting Started
 
