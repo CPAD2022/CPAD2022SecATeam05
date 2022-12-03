@@ -52,6 +52,10 @@ class _SignInScreenState extends State<SignInScreen> {
               Navigator.push(context,
               MaterialPageRoute(builder: (context) => HomeScreen()));
               }).onError((error, stackTrace) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                    content: Text('Wrong username or password'),)
+                    );
                 print("Error ${error.toString()}");
               });
             }),
