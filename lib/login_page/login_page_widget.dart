@@ -1,9 +1,12 @@
 import '../auth/auth_util.dart';
+import '../flutter_flow/flutter_flow_animations.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
 import '../main.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -14,7 +17,23 @@ class LoginPageWidget extends StatefulWidget {
   _LoginPageWidgetState createState() => _LoginPageWidgetState();
 }
 
-class _LoginPageWidgetState extends State<LoginPageWidget> {
+class _LoginPageWidgetState extends State<LoginPageWidget>
+    with TickerProviderStateMixin {
+  final animationsMap = {
+    'buttonOnActionTriggerAnimation': AnimationInfo(
+      trigger: AnimationTrigger.onActionTrigger,
+      applyInitialState: true,
+      effects: [
+        FadeEffect(
+          curve: Curves.easeInOut,
+          delay: 0.ms,
+          duration: 600.ms,
+          begin: 0,
+          end: 1,
+        ),
+      ],
+    ),
+  };
   TextEditingController? emailAddressController;
   TextEditingController? passwordController;
 
@@ -28,6 +47,13 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
   @override
   void initState() {
     super.initState();
+    setupAnimations(
+      animationsMap.values.where((anim) =>
+          anim.trigger == AnimationTrigger.onActionTrigger ||
+          !anim.applyInitialState),
+      this,
+    );
+
     emailAddressController = TextEditingController();
     passwordController = TextEditingController();
     passwordVisibility = false;
@@ -238,12 +264,13 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                           return;
                                         }
 
-                                        await Navigator.push(
+                                        await Navigator.pushAndRemoveUntil(
                                           context,
                                           MaterialPageRoute(
                                             builder: (context) =>
                                                 NavBarPage(initialPage: 'Home'),
                                           ),
+                                          (r) => false,
                                         );
                                       },
                                       text: 'Sign In',
@@ -265,6 +292,9 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                                           width: 1,
                                         ),
                                       ),
+                                    ).animateOnActionTrigger(
+                                      animationsMap[
+                                          'buttonOnActionTriggerAnimation']!,
                                     ),
                                   ),
                                   Padding(

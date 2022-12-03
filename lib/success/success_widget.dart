@@ -97,6 +97,36 @@ class _SuccessWidgetState extends State<SuccessWidget> {
                 ),
               ),
             ),
+            if (widget.product == 'Chicken Tandoori')
+              Image.asset(
+                'assets/images/MicrosoftTeams-image_(4).png',
+                width: 100,
+                height: 100,
+                fit: BoxFit.cover,
+              ),
+            if (widget.product == 'Veg Tandoori')
+              Image.asset(
+                'assets/images/MicrosoftTeams-image_(5).png',
+                width: 100,
+                height: 100,
+                fit: BoxFit.cover,
+              ),
+            Container(
+              width: 100,
+              height: 100,
+              decoration: BoxDecoration(
+                color: FlutterFlowTheme.of(context).secondaryBackground,
+              ),
+              child: Visibility(
+                visible: widget.product == 'Veg North Indian',
+                child: Image.asset(
+                  'assets/images/MicrosoftTeams-image.png',
+                  width: 100,
+                  height: 100,
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
             Expanded(
               child: Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 32),
